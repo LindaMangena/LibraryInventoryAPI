@@ -35,10 +35,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Register services
+
 builder.Services.AddSingleton<ITokenService>(new TokenService(secretKey));
 
-// Register validators
+
 builder.Services.AddTransient<IValidator<BookCreateDto>, BookCreateValidator>();
 builder.Services.AddTransient<IValidator<BookUpdateDto>, BookUpdateValidator>();
 
