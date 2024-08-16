@@ -1,0 +1,15 @@
+# Ignore Visual Studio temporary files, build results, and
+# .vs directory is the user-specific cache directory.
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.cache
+*.log
+*.vsidx
+*.pdb
+*.dll
+*.exe
+bin/
+obj/
